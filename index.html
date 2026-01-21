@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vikram Oberai — Statistics & Machine Learning</title>
+    <meta
+      name="description"
+      content="Vikram Oberai — CMU Freshman studying Statistics + Machine Learning. Projects: ML systems, data analysis, and quantitative tools."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="#hero">Vikram Oberai</a>
+        <nav class="nav" id="nav">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
+      </div>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <h1>Vikram Oberai</h1>
+            <p class="lead">
+              Freshman at Carnegie Mellon — Statistics + Machine Learning.
+              Building production-minded ML and data tools that turn ambiguity
+              into measurable impact.
+            </p>
+            <div class="hero-cta">
+              <a class="btn primary" href="#projects">Selected Projects</a>
+              <a class="btn ghost" href="#contact">Contact</a>
+            </div>
+          </div>
+          <div class="hero-aside" aria-hidden="true">
+            <div class="profile-card">
+              <div class="metrics">
+                <div>
+                  <span class="num">3+</span
+                  ><span class="label">Relevant Projects</span>
+                </div>
+                <div>
+                  <span class="num">CMU</span
+                  ><span class="label">Statistics & ML</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section">
+        <div class="container">
+          <h2>About</h2>
+          <p>
+            I'm a problem-solver focused on rigorous data methods and practical
+            ML engineering. I prioritize clear assumptions, reproducible
+            experiments, and shipping interpretable models. Looking for
+            internships where I can apply statistical intuition to real-world
+            systems.
+          </p>
+        </div>
+      </section>
+
+      <section id="education" class="section muted">
+        <div class="container">
+          <h2>Education</h2>
+          <div class="education">
+            <div>
+              <h3>Carnegie Mellon University</h3>
+              <p>B.S. Statistics & Machine Learning — Expected 2028</p>
+              <p class="edu-notes">
+                Selected coursework: Probability, Linear Algebra, Intro ML, Data
+                Structures. Activities: CS/ML study groups, research assist.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="container">
+          <h2>Selected Projects</h2>
+          <div class="projects-grid" id="projects-grid">
+            <article class="project-card" data-id="1">
+              <div class="card-head">
+                <h3>AAPL Earnings NLP Sentiment</h3>
+                <p class="muted-sm">
+                  NLP · Sentiment Analysis · Time-series signal
+                </p>
+              </div>
+              <p class="card-blurb">
+                Built an NLP pipeline to extract sentiment from earnings calls
+                and evaluate market reaction — combined text embeddings with
+                event-aligned returns for causal signal detection.
+              </p>
+              <div class="card-actions">
+                <button class="expand">Details</button>
+                <a
+                  class="link"
+                  href="https://github.com/CodingGenius14/AAPL_NLP_Earning_Call_Sentiment"
+                  target="_blank"
+                  rel="noopener"
+                  >Repo</a
+                >
+              </div>
+              <div class="card-details">
+                <ul>
+                  <li>
+                    Preprocessing + speaker segmentation, transformer embeddings
+                    (fine-tuned)
+                  </li>
+                  <li>
+                    Event study aligning sentiment windows with intraday returns
+                  </li>
+                  <li>Backtested hypotheses with careful leakage controls</li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card" data-id="2">
+              <div class="card-head">
+                <h3>Linear Regression Project — ML Practice</h3>
+                <p class="muted-sm">
+                  Statistics · Model Diagnostics · Explainability
+                </p>
+              </div>
+              <p class="card-blurb">
+                Rigorous approach to model selection, residual analysis, and
+                feature engineering with reproducible notebooks and automated
+                evaluation.
+              </p>
+              <div class="card-actions">
+                <button class="expand">Details</button>
+                <a
+                  class="link"
+                  href="https://github.com/CodingGenius14/Machine-Learning-Practice/tree/main/linear_regression/project"
+                  target="_blank"
+                  rel="noopener"
+                  >Repo</a
+                >
+              </div>
+              <div class="card-details">
+                <ul>
+                  <li>
+                    Cross-validation, information criteria, and
+                    heteroskedasticity-aware inference
+                  </li>
+                  <li>
+                    Automated pipeline for feature transforms and ablation
+                    studies
+                  </li>
+                </ul>
+              </div>
+            </article>
+
+            <article class="project-card" data-id="3">
+              <div class="card-head">
+                <h3>Quant Toolkit (prototype)</h3>
+                <p class="muted-sm">Data Engineering · Automation</p>
+              </div>
+              <p class="card-blurb">
+                Small, production-minded utilities for reproducible backtests
+                and clean data ingestion used in prototyping ML trading signals.
+              </p>
+              <div class="card-actions">
+                <button class="expand">Details</button>
+                <a class="link" href="#" target="_blank" rel="noopener">More</a>
+              </div>
+              <div class="card-details">
+                <ul>
+                  <li>
+                    Robust CSV ingestion, schema validation, and lightweight
+                    caching
+                  </li>
+                  <li>
+                    Focus on clear interfaces for downstream model training
+                  </li>
+                </ul>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section muted">
+        <div class="container contact-grid">
+          <div>
+            <h2>Contact</h2>
+            <p>
+              For internship inquiries or collaborative research:
+              <a href="mailto:vikram@example.com">vikram@example.com</a>
+            </p>
+            <p class="muted-sm">
+              LinkedIn · GitHub links available in resume and project pages.
+            </p>
+          </div>
+          <div class="mini-cta">
+            <a class="btn primary" href="Updated_Resume.pdf" target="_blank"
+              >Download Resume</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <small
+          >© Vikram Oberai — Carnegie Mellon University • Built for
+          recruiters</small
+        >
+      </div>
+    </footer>
+
+    <script src="scripts.js" defer></script>
+  </body>
+</html>
