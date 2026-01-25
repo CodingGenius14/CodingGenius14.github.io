@@ -1,212 +1,315 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vikram Oberai | Statistics & Machine Learning @ CMU</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <!-- Navigation -->
     <nav id="nav">
-        <div class="nav-container">
-            <a href="#home" class="nav-logo">VO</a>
-            <ul class="nav-links">
-                <li><a href="#experience" class="nav-link">Experience</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <li><a href="#education" class="nav-link">Education</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
-            </ul>
-        </div>
+      <div class="nav-container">
+        <a href="#home" class="nav-logo">VO</a>
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About </a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </div>
     </nav>
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-content">
-            <div class="hero-label">Statistics & Machine Learning @ CMU</div>
-            <h1 class="hero-title">Vikram Oberai</h1>
-            <p class="hero-subtitle">Building data-driven solutions at the intersection of statistics, ML, and quantitative finance.</p>
-            <p class="hero-description">
-                Freshman at Carnegie Mellon University with hands-on experience in commodities technology at Balyasny Asset Management. Passionate about applying machine learning and statistical methods to solve complex problems in finance and beyond.
-            </p>
-            <div class="hero-cta">
-                <a href="#contact" class="btn btn-primary">Get In Touch</a>
-                <a href="#experience" class="btn btn-secondary">View My Work</a>
-            </div>
+      <div class="hero-content">
+        <div class="hero-label">Statistics & Machine Learning @ CMU</div>
+        <h1 class="hero-title">Vikram Oberai</h1>
+        <p class="hero-subtitle">
+          Building data-driven solutions at the intersection of statistics, ML,
+          and quantitative finance.
+        </p>
+        <p class="hero-description">
+          Freshman at Carnegie Mellon University passionate about applying
+          machine learning and statistical methods to solve complex problems in
+          finance and beyond.
+        </p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get In Touch</a>
+          <a href="#experience" class="btn btn-secondary">View My Work</a>
         </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="section-header">
+        <div class="section-label">About Me</div>
+        <h2 class="section-title">Who I Am</h2>
+      </div>
+      <div class="about-container">
+        <div class="section-image">
+          <img class="about-img" src="headshot.jpg" alt="" />
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            Hi, my name is Vikram! I’m a freshman at Carnegie Mellon University
+            majoring in Statistics and Machine Learning, with a strong interest
+            in artificial intelligence, robotics, and quantitative trading and
+            research. I love working at the intersection of finance, computer
+            science, and data to solve complex problems. As a triplet,
+            collaboration has been part of my life from day one, shaping me into
+            someone who’s curious, communicative, and comfortable tackling tough
+            challenges within a team. In my free time, I enjoy going on walks
+            with friends, keeping up with the UFC and NBA, and exploring cool
+            projects to build and learn from.
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Experience Section -->
     <section id="experience">
-        <div class="section-header">
-            <div class="section-label">Professional Experience</div>
-            <h2 class="section-title">Where I've Worked</h2>
-        </div>
+      <div class="section-header">
+        <div class="section-label">Professional Experience</div>
+        <h2 class="section-title">Where I've Worked</h2>
+      </div>
 
-        <div class="experience-grid">
-            <div class="experience-card">
-                <div class="experience-header">
-                    <div>
-                        <h3 class="experience-company">Balyasny Asset Management</h3>
-                        <div class="experience-role">Intern, Commodities Technology</div>
-                    </div>
-                    <div class="experience-date">Jun 2025 – Aug 2025</div>
-                </div>
-                <ul class="experience-achievements">
-                    <li>Reduced balance framework package import time by <strong>57%</strong> using lazy-object-proxy, identifying performance bottlenecks via Tuna profiling</li>
-                    <li>Measured per-node memory usage using psutil and enhanced an existing Gantt chart by integrating a Plotly scatter plot, enabling developers to pinpoint memory-intensive nodes in real time</li>
-                    <li>Delivered a final presentation to BAM leadership and peers, summarizing project outcomes, technical learnings, and the impact of performance and observability improvements on the balance framework package</li>
-                </ul>
+      <div class="experience-grid">
+        <div class="experience-card">
+          <div class="experience-header">
+            <div>
+              <h3 class="experience-company">Balyasny Asset Management</h3>
+              <div class="experience-role">Intern, Commodities Technology</div>
             </div>
+            <div class="experience-date">Jun 2025 – Aug 2025</div>
+          </div>
+          <ul class="experience-achievements">
+            <li>
+              Reduced balance framework package import time by
+              <strong>57%</strong> using lazy-object-proxy, identifying
+              performance bottlenecks via Tuna profiling
+            </li>
+            <li>
+              Measured per-node memory usage using psutil and enhanced an
+              existing Gantt chart by integrating a Plotly scatter plot,
+              enabling developers to pinpoint memory-intensive nodes in real
+              time
+            </li>
+            <li>
+              Delivered a final presentation to BAM leadership and peers,
+              summarizing project outcomes, technical learnings, and the impact
+              of performance and observability improvements on the balance
+              framework package
+            </li>
+          </ul>
         </div>
+      </div>
     </section>
 
     <!-- Projects Section -->
     <section id="projects">
-        <div class="section-header">
-            <div class="section-label">Featured Work</div>
-            <h2 class="section-title">Projects</h2>
-            <p class="section-description">A selection of projects demonstrating my skills in data science, machine learning, and quantitative analysis.</p>
+      <div class="section-header">
+        <div class="section-label">Featured Work</div>
+        <h2 class="section-title">Projects</h2>
+        <p class="section-description">
+          Projects demonstrating my skills in data science, machine learning,
+          and quantitative analysis.
+        </p>
+      </div>
+
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">Earnings Call Sentiment Analysis</h3>
+            </div>
+            <a
+              href="https://github.com/CodingGenius14/AAPL_NLP_Earning_Call_Sentiment"
+              class="project-link"
+              target="_blank"
+              rel="noopener"
+              >↗</a
+            >
+          </div>
+          <p class="project-description">
+            Built an NLP pipeline analyzing 64 Apple earnings call transcripts
+            (2006–2025) using the Loughran–McDonald dictionary to predict
+            post-earnings returns.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">NLP</span>
+            <span class="tech-tag">Statistics</span>
+            <span class="tech-tag">Pandas</span>
+            <span class="tech-tag">Statsmodels</span>
+          </div>
+          <div class="project-metrics">
+            <img class="project-img" src="data_analytics.webp" alt="" />
+          </div>
         </div>
 
-        <div class="projects-grid">
-            <div class="project-card">
-                <div class="project-header">
-                    <div>
-                        <h3 class="project-title">Earnings Call Sentiment Analysis</h3>
-                    </div>
-                    <a href="https://github.com/voberai" class="project-link" target="_blank" rel="noopener">↗</a>
-                </div>
-                <p class="project-description">
-                    Built an NLP pipeline analyzing 64 Apple earnings call transcripts (2006–2025) using the Loughran–McDonald dictionary to predict post-earnings returns.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">NLP</span>
-                    <span class="tech-tag">Statistics</span>
-                    <span class="tech-tag">Pandas</span>
-                    <span class="tech-tag">Statsmodels</span>
-                </div>
-                <div class="project-metrics">
-                    <div class="metric">Engineered <strong>5 sentiment metrics</strong> (negative, positive, uncertainty, net tone, intensity)</div>
-                    <div class="metric">Identified <strong>net tone</strong> as strongest predictor for post-earnings returns via OLS regression</div>
-                </div>
+        <div class="project-card">
+          <div class="project-header">
+            <div>
+              <h3 class="project-title">Salary Prediction ML Pipeline</h3>
             </div>
-
-            <div class="project-card">
-                <div class="project-header">
-                    <div>
-                        <h3 class="project-title">Salary Prediction ML Pipeline</h3>
-                    </div>
-                    <a href="https://github.com/voberai" class="project-link" target="_blank" rel="noopener">↗</a>
-                </div>
-                <p class="project-description">
-                    Implemented linear regression from scratch with gradient descent, building an end-to-end ML pipeline with preprocessing, regularization, and hyperparameter tuning.
-                </p>
-                <div class="project-tech">
-                    <span class="tech-tag">Python</span>
-                    <span class="tech-tag">scikit-learn</span>
-                    <span class="tech-tag">Matplotlib</span>
-                    <span class="tech-tag">NumPy</span>
-                </div>
-                <div class="project-metrics">
-                    <div class="metric">Built <strong>from-scratch implementation</strong> with convergence visualization</div>
-                    <div class="metric">Comprehensive evaluation using <strong>MSE and R² metrics</strong></div>
-                </div>
-            </div>
+            <a
+              href="https://github.com/CodingGenius14/Machine-Learning-Practice/tree/main/linear_regression/project"
+              class="project-link"
+              target="_blank"
+              rel="noopener"
+              >↗</a
+            >
+          </div>
+          <p class="project-description">
+            Implemented linear regression from scratch with gradient descent,
+            building an end-to-end ML pipeline with preprocessing,
+            regularization, and hyperparameter tuning.
+          </p>
+          <div class="project-tech">
+            <span class="tech-tag">Python</span>
+            <span class="tech-tag">scikit-learn</span>
+            <span class="tech-tag">Matplotlib</span>
+            <span class="tech-tag">NumPy</span>
+          </div>
+          <div class="project-metrics">
+            <img class="project-img" src="salaryPrediction.png" alt="" />
+          </div>
         </div>
+      </div>
     </section>
 
     <!-- Education Section -->
     <section id="education">
-        <div class="section-header">
-            <div class="section-label">Academic Background</div>
-            <h2 class="section-title">Education</h2>
+      <div class="section-header">
+        <div class="section-label">Academic Background</div>
+        <h2 class="section-title">Education</h2>
+      </div>
+
+      <div class="education-card">
+        <div class="education-header">
+          <div>
+            <h3 class="education-school">Carnegie Mellon University</h3>
+            <div class="education-degree">
+              B.S. Statistics & Machine Learning
+            </div>
+            <div class="education-gpa">GPA: 3.35/4.0</div>
+          </div>
+          <div class="experience-date">Expected 2029</div>
+        </div>
+        <div class="coursework">
+          <div class="coursework-title">Relevant Coursework</div>
+          <div class="coursework-list">
+            <span class="course-tag">Fundamentals of Programming</span>
+            <span class="course-tag">Integral & Differential Calculus</span>
+            <span class="course-tag">Reasoning with Data</span>
+            <span class="course-tag">Thinking with Evidence</span>
+            <span class="course-tag">Accelerated Microeconomics</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-header" style="margin-top: 3rem">
+        <div class="section-label">Technical Skills</div>
+        <h2 class="section-title">Skills & Tools</h2>
+      </div>
+
+      <div class="skills-grid">
+        <div class="skill-category">
+          <div class="skill-category-title">
+            <span class="skill-category-icon">💻</span>
+            Languages
+          </div>
+          <div class="skill-list">
+            <span class="skill-item">Python</span>
+            <span class="skill-item">R</span>
+            <span class="skill-item">Html</span>
+            <span class="skill-item">CSS</span>
+          </div>
         </div>
 
-        <div class="education-card">
-            <div class="education-header">
-                <div>
-                    <h3 class="education-school">Carnegie Mellon University</h3>
-                    <div class="education-degree">B.S. Statistics & Machine Learning</div>
-                    <div class="education-gpa">GPA: 3.35/4.0</div>
-                </div>
-                <div class="experience-date">Expected 2029</div>
-            </div>
-            <div class="coursework">
-                <div class="coursework-title">Relevant Coursework</div>
-                <div class="coursework-list">
-                    <span class="course-tag">Fundamentals of Programming</span>
-                    <span class="course-tag">Reasoning with Data</span>
-                    <span class="course-tag">Thinking with Evidence</span>
-                    <span class="course-tag">Accelerated Microeconomics</span>
-                </div>
-            </div>
+        <div class="skill-category">
+          <div class="skill-category-title">
+            <span class="skill-category-icon">📊</span>
+            Libraries & Frameworks
+          </div>
+          <div class="skill-list">
+            <span class="skill-item">NumPy</span>
+            <span class="skill-item">Pandas</span>
+            <span class="skill-item">scikit-learn</span>
+            <span class="skill-item">Matplotlib</span>
+            <span class="skill-item">Statsmodels</span>
+            <span class="skill-item">Plotly</span>
+          </div>
         </div>
 
-        <div class="section-header" style="margin-top: 3rem;">
-            <div class="section-label">Technical Skills</div>
-            <h2 class="section-title">Skills & Tools</h2>
+        <div class="skill-category">
+          <div class="skill-category-title">
+            <span class="skill-category-icon">🛠️</span>
+            Tools & Technologies
+          </div>
+          <div class="skill-list">
+            <span class="skill-item">Git</span>
+            <span class="skill-item">GitHub</span>
+            <span class="skill-item">VS Code</span>
+          </div>
         </div>
-
-        <div class="skills-grid">
-            <div class="skill-category">
-                <div class="skill-category-title">
-                    <span class="skill-category-icon">💻</span>
-                    Languages
-                </div>
-                <div class="skill-list">
-                    <span class="skill-item">Python</span>
-                    <span class="skill-item">R</span>
-                </div>
-            </div>
-
-            <div class="skill-category">
-                <div class="skill-category-title">
-                    <span class="skill-category-icon">📊</span>
-                    Libraries & Frameworks
-                </div>
-                <div class="skill-list">
-                    <span class="skill-item">NumPy</span>
-                    <span class="skill-item">Pandas</span>
-                    <span class="skill-item">scikit-learn</span>
-                    <span class="skill-item">Matplotlib</span>
-                    <span class="skill-item">Statsmodels</span>
-                    <span class="skill-item">Plotly</span>
-                </div>
-            </div>
-
-            <div class="skill-category">
-                <div class="skill-category-title">
-                    <span class="skill-category-icon">🛠️</span>
-                    Tools & Technologies
-                </div>
-                <div class="skill-list">
-                    <span class="skill-item">Git</span>
-                    <span class="skill-item">GitHub</span>
-                    <span class="skill-item">Tuna Profiling</span>
-                    <span class="skill-item">psutil</span>
-                </div>
-            </div>
-        </div>
+      </div>
     </section>
 
     <!-- Contact Section -->
     <section id="contact">
-        <div class="contact-content">
-            <div class="section-label">Get In Touch</div>
-            <h2 class="contact-title">Let's Connect</h2>
-            <p class="contact-description">
-                I'm currently exploring opportunities in quantitative finance, machine learning, and data science. Feel free to reach out if you'd like to discuss potential collaborations or opportunities.
-            </p>
-            <div class="contact-links">
-                <a href="mailto:voberai@andrew.cmu.edu" class="contact-link">
-                    <span>📧</span>
-                    <span>Email</span>
-                </a>
-                <a href="https://linkedin.com/in/vikramoberai" class="contact-link" target="_blank" rel="noopener">
-                    <span>💼</span>
-                    <span>LinkedIn</span>
-                </a>
-                <a href="https://github.com/voberai" class="contact-link" target="_blank" rel="
+      <div class="contact-content">
+        <div class="section-label">Get In Touch</div>
+        <h2 class="contact-title">Let's Connect</h2>
+        <p class="contact-description">
+          I'm currently exploring opportunities in quantitative finance, machine
+          learning, and data science. Feel free to reach out if you'd like to
+          discuss potential collaborations or opportunities.
+        </p>
+        <div class="contact-links">
+          <a
+            href="https://www.linkedin.com/in/vikram-oberai-874573259/"
+            class="contact-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>💼</span>
+            <span>LinkedIn</span>
+          </a>
+          <a
+            href="https://github.com/CodingGenius14"
+            class="contact-link"
+            target="_blank"
+            rel="noopener"
+          >
+            <span>🐙</span>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+
+<!-- 
+Image Sources: Google Images
+Man Data Analytics Image: https://online.york.ac.uk/resources/everything-you-need-to-know-about-data-analytics/
+Salary Prediction Image: https://medium.com/@karangore518/predicting-salaries-with-linear-regression-a-simple-powerful-ml-exercise-2e17a2f68115
+
+
+AI Usage:
+- tools: ChatGpt (prompt engineer) to optimize instruction prompt | Claude: to generate initial html and css code based on optimized prompt
+- AI usage in project: I used Claude to generate the layout of the website include the different sections (besides the about section), the css interactivity styling such as hover effects and smooth scrolling, the color scheme, and the initial content.
+
+My Customization:
+- After getting the initiail code from Cluade, I then went into the Html file and CSS file to customize the project to my liking. 
+I first started off by fixing up the written descriptions that Claude had given, I then added an about section with a bio and headshot picture, I removed some extra content that Claude had generated such as metrics for the project section, an email button in the contact section, and skills that were not relevant within the skills section. 
+I then added images to each of my projects and within the css file I added media queries to help with the responsiveness based on different device demensions.
+-->
