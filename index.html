@@ -1,233 +1,212 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vikram Oberai — Statistics & Machine Learning</title>
-    <meta
-      name="description"
-      content="Vikram Oberai — CMU Freshman studying Statistics + Machine Learning. Projects: ML systems, data analysis, and quantitative tools."
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="#hero">Vikram Oberai</a>
-        <nav class="nav" id="nav">
-          <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </nav>
-        <button id="nav-toggle" aria-label="Toggle navigation">☰</button>
-      </div>
-    </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vikram Oberai | Statistics & Machine Learning @ CMU</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="nav">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">VO</a>
+            <ul class="nav-links">
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <main>
-      <section id="hero" class="hero">
-        <div class="container hero-grid">
-          <div class="hero-copy">
-            <h1>Vikram Oberai</h1>
-            <p class="lead">
-              Freshman at Carnegie Mellon — Statistics + Machine Learning.
-              Building production-minded ML and data tools that turn ambiguity
-              into measurable impact.
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="hero-label">Statistics & Machine Learning @ CMU</div>
+            <h1 class="hero-title">Vikram Oberai</h1>
+            <p class="hero-subtitle">Building data-driven solutions at the intersection of statistics, ML, and quantitative finance.</p>
+            <p class="hero-description">
+                Freshman at Carnegie Mellon University with hands-on experience in commodities technology at Balyasny Asset Management. Passionate about applying machine learning and statistical methods to solve complex problems in finance and beyond.
             </p>
             <div class="hero-cta">
-              <a class="btn primary" href="#projects">Selected Projects</a>
-              <a class="btn ghost" href="#contact">Contact</a>
+                <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                <a href="#experience" class="btn btn-secondary">View My Work</a>
             </div>
-          </div>
-          <div class="hero-aside" aria-hidden="true">
-            <div class="profile-card">
-              <div class="metrics">
-                <div>
-                  <span class="num">3+</span
-                  ><span class="label">Relevant Projects</span>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience">
+        <div class="section-header">
+            <div class="section-label">Professional Experience</div>
+            <h2 class="section-title">Where I've Worked</h2>
+        </div>
+
+        <div class="experience-grid">
+            <div class="experience-card">
+                <div class="experience-header">
+                    <div>
+                        <h3 class="experience-company">Balyasny Asset Management</h3>
+                        <div class="experience-role">Intern, Commodities Technology</div>
+                    </div>
+                    <div class="experience-date">Jun 2025 – Aug 2025</div>
                 </div>
-                <div>
-                  <span class="num">CMU</span
-                  ><span class="label">Statistics & ML</span>
+                <ul class="experience-achievements">
+                    <li>Reduced balance framework package import time by <strong>57%</strong> using lazy-object-proxy, identifying performance bottlenecks via Tuna profiling</li>
+                    <li>Measured per-node memory usage using psutil and enhanced an existing Gantt chart by integrating a Plotly scatter plot, enabling developers to pinpoint memory-intensive nodes in real time</li>
+                    <li>Delivered a final presentation to BAM leadership and peers, summarizing project outcomes, technical learnings, and the impact of performance and observability improvements on the balance framework package</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="section-header">
+            <div class="section-label">Featured Work</div>
+            <h2 class="section-title">Projects</h2>
+            <p class="section-description">A selection of projects demonstrating my skills in data science, machine learning, and quantitative analysis.</p>
+        </div>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">Earnings Call Sentiment Analysis</h3>
+                    </div>
+                    <a href="https://github.com/voberai" class="project-link" target="_blank" rel="noopener">↗</a>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="about" class="section">
-        <div class="container">
-          <h2>About</h2>
-          <p>
-            I'm a problem-solver focused on rigorous data methods and practical
-            ML engineering. I prioritize clear assumptions, reproducible
-            experiments, and shipping interpretable models. Looking for
-            internships where I can apply statistical intuition to real-world
-            systems.
-          </p>
-        </div>
-      </section>
-
-      <section id="education" class="section muted">
-        <div class="container">
-          <h2>Education</h2>
-          <div class="education">
-            <div>
-              <h3>Carnegie Mellon University</h3>
-              <p>B.S. Statistics & Machine Learning — Expected 2028</p>
-              <p class="edu-notes">
-                Selected coursework: Probability, Linear Algebra, Intro ML, Data
-                Structures. Activities: CS/ML study groups, research assist.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="projects" class="section">
-        <div class="container">
-          <h2>Selected Projects</h2>
-          <div class="projects-grid" id="projects-grid">
-            <article class="project-card" data-id="1">
-              <div class="card-head">
-                <h3>AAPL Earnings NLP Sentiment</h3>
-                <p class="muted-sm">
-                  NLP · Sentiment Analysis · Time-series signal
+                <p class="project-description">
+                    Built an NLP pipeline analyzing 64 Apple earnings call transcripts (2006–2025) using the Loughran–McDonald dictionary to predict post-earnings returns.
                 </p>
-              </div>
-              <p class="card-blurb">
-                Built an NLP pipeline to extract sentiment from earnings calls
-                and evaluate market reaction — combined text embeddings with
-                event-aligned returns for causal signal detection.
-              </p>
-              <div class="card-actions">
-                <button class="expand">Details</button>
-                <a
-                  class="link"
-                  href="https://github.com/CodingGenius14/AAPL_NLP_Earning_Call_Sentiment"
-                  target="_blank"
-                  rel="noopener"
-                  >Repo</a
-                >
-              </div>
-              <div class="card-details">
-                <ul>
-                  <li>
-                    Preprocessing + speaker segmentation, transformer embeddings
-                    (fine-tuned)
-                  </li>
-                  <li>
-                    Event study aligning sentiment windows with intraday returns
-                  </li>
-                  <li>Backtested hypotheses with careful leakage controls</li>
-                </ul>
-              </div>
-            </article>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">NLP</span>
+                    <span class="tech-tag">Statistics</span>
+                    <span class="tech-tag">Pandas</span>
+                    <span class="tech-tag">Statsmodels</span>
+                </div>
+                <div class="project-metrics">
+                    <div class="metric">Engineered <strong>5 sentiment metrics</strong> (negative, positive, uncertainty, net tone, intensity)</div>
+                    <div class="metric">Identified <strong>net tone</strong> as strongest predictor for post-earnings returns via OLS regression</div>
+                </div>
+            </div>
 
-            <article class="project-card" data-id="2">
-              <div class="card-head">
-                <h3>Linear Regression Project — ML Practice</h3>
-                <p class="muted-sm">
-                  Statistics · Model Diagnostics · Explainability
+            <div class="project-card">
+                <div class="project-header">
+                    <div>
+                        <h3 class="project-title">Salary Prediction ML Pipeline</h3>
+                    </div>
+                    <a href="https://github.com/voberai" class="project-link" target="_blank" rel="noopener">↗</a>
+                </div>
+                <p class="project-description">
+                    Implemented linear regression from scratch with gradient descent, building an end-to-end ML pipeline with preprocessing, regularization, and hyperparameter tuning.
                 </p>
-              </div>
-              <p class="card-blurb">
-                Rigorous approach to model selection, residual analysis, and
-                feature engineering with reproducible notebooks and automated
-                evaluation.
-              </p>
-              <div class="card-actions">
-                <button class="expand">Details</button>
-                <a
-                  class="link"
-                  href="https://github.com/CodingGenius14/Machine-Learning-Practice/tree/main/linear_regression/project"
-                  target="_blank"
-                  rel="noopener"
-                  >Repo</a
-                >
-              </div>
-              <div class="card-details">
-                <ul>
-                  <li>
-                    Cross-validation, information criteria, and
-                    heteroskedasticity-aware inference
-                  </li>
-                  <li>
-                    Automated pipeline for feature transforms and ablation
-                    studies
-                  </li>
-                </ul>
-              </div>
-            </article>
-
-            <article class="project-card" data-id="3">
-              <div class="card-head">
-                <h3>Quant Toolkit (prototype)</h3>
-                <p class="muted-sm">Data Engineering · Automation</p>
-              </div>
-              <p class="card-blurb">
-                Small, production-minded utilities for reproducible backtests
-                and clean data ingestion used in prototyping ML trading signals.
-              </p>
-              <div class="card-actions">
-                <button class="expand">Details</button>
-                <a class="link" href="#" target="_blank" rel="noopener">More</a>
-              </div>
-              <div class="card-details">
-                <ul>
-                  <li>
-                    Robust CSV ingestion, schema validation, and lightweight
-                    caching
-                  </li>
-                  <li>
-                    Focus on clear interfaces for downstream model training
-                  </li>
-                </ul>
-              </div>
-            </article>
-          </div>
+                <div class="project-tech">
+                    <span class="tech-tag">Python</span>
+                    <span class="tech-tag">scikit-learn</span>
+                    <span class="tech-tag">Matplotlib</span>
+                    <span class="tech-tag">NumPy</span>
+                </div>
+                <div class="project-metrics">
+                    <div class="metric">Built <strong>from-scratch implementation</strong> with convergence visualization</div>
+                    <div class="metric">Comprehensive evaluation using <strong>MSE and R² metrics</strong></div>
+                </div>
+            </div>
         </div>
-      </section>
+    </section>
 
-      <section id="contact" class="section muted">
-        <div class="container contact-grid">
-          <div>
-            <h2>Contact</h2>
-            <p>
-              For internship inquiries or collaborative research:
-              <a href="mailto:vikram@example.com">vikram@example.com</a>
-            </p>
-            <p class="muted-sm">
-              LinkedIn · GitHub links available in resume and project pages.
-            </p>
-          </div>
-          <div class="mini-cta">
-            <a class="btn primary" href="Updated_Resume.pdf" target="_blank"
-              >Download Resume</a
-            >
-          </div>
+    <!-- Education Section -->
+    <section id="education">
+        <div class="section-header">
+            <div class="section-label">Academic Background</div>
+            <h2 class="section-title">Education</h2>
         </div>
-      </section>
-    </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <small
-          >© Vikram Oberai — Carnegie Mellon University • Built for
-          recruiters</small
-        >
-      </div>
-    </footer>
+        <div class="education-card">
+            <div class="education-header">
+                <div>
+                    <h3 class="education-school">Carnegie Mellon University</h3>
+                    <div class="education-degree">B.S. Statistics & Machine Learning</div>
+                    <div class="education-gpa">GPA: 3.35/4.0</div>
+                </div>
+                <div class="experience-date">Expected 2029</div>
+            </div>
+            <div class="coursework">
+                <div class="coursework-title">Relevant Coursework</div>
+                <div class="coursework-list">
+                    <span class="course-tag">Fundamentals of Programming</span>
+                    <span class="course-tag">Reasoning with Data</span>
+                    <span class="course-tag">Thinking with Evidence</span>
+                    <span class="course-tag">Accelerated Microeconomics</span>
+                </div>
+            </div>
+        </div>
 
-    <script src="scripts.js" defer></script>
-  </body>
-</html>
+        <div class="section-header" style="margin-top: 3rem;">
+            <div class="section-label">Technical Skills</div>
+            <h2 class="section-title">Skills & Tools</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="skill-category">
+                <div class="skill-category-title">
+                    <span class="skill-category-icon">💻</span>
+                    Languages
+                </div>
+                <div class="skill-list">
+                    <span class="skill-item">Python</span>
+                    <span class="skill-item">R</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-title">
+                    <span class="skill-category-icon">📊</span>
+                    Libraries & Frameworks
+                </div>
+                <div class="skill-list">
+                    <span class="skill-item">NumPy</span>
+                    <span class="skill-item">Pandas</span>
+                    <span class="skill-item">scikit-learn</span>
+                    <span class="skill-item">Matplotlib</span>
+                    <span class="skill-item">Statsmodels</span>
+                    <span class="skill-item">Plotly</span>
+                </div>
+            </div>
+
+            <div class="skill-category">
+                <div class="skill-category-title">
+                    <span class="skill-category-icon">🛠️</span>
+                    Tools & Technologies
+                </div>
+                <div class="skill-list">
+                    <span class="skill-item">Git</span>
+                    <span class="skill-item">GitHub</span>
+                    <span class="skill-item">Tuna Profiling</span>
+                    <span class="skill-item">psutil</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-content">
+            <div class="section-label">Get In Touch</div>
+            <h2 class="contact-title">Let's Connect</h2>
+            <p class="contact-description">
+                I'm currently exploring opportunities in quantitative finance, machine learning, and data science. Feel free to reach out if you'd like to discuss potential collaborations or opportunities.
+            </p>
+            <div class="contact-links">
+                <a href="mailto:voberai@andrew.cmu.edu" class="contact-link">
+                    <span>📧</span>
+                    <span>Email</span>
+                </a>
+                <a href="https://linkedin.com/in/vikramoberai" class="contact-link" target="_blank" rel="noopener">
+                    <span>💼</span>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/voberai" class="contact-link" target="_blank" rel="
